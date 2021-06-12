@@ -1,0 +1,65 @@
+body{
+	  background-color: black;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	input{
+		color: black;
+		border: 2px solid white;
+		padding: 17px;
+		outline: none;
+		font-size: 20px;
+	font-family: Bold;
+	}
+	input:hover{
+		background-color: white
+	}
+	.num{
+		width: 64px;
+		height: 67px;
+		border-radius: 50%;
+	}
+	.nums{
+		width: 128px;
+		height: 60px;
+		border-radius: 22px;
+		letter-spacing: 5px;
+		text-align: center;
+		margin-bottom: 12px;
+	}
+	.text{
+		width: 225px;
+		height: 26px;
+		border-radius: 22px;
+		letter-spacing: 5px;
+		text-align: right;
+		margin-bottom: 12px;
+	}
+	.text1{
+		width: 24px;
+		height: 26px;
+		border-radius: 22px;
+		letter-spacing: 5px;
+		text-align: center;
+		margin-bottom: 12px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.main{
+		display: inline-block;
+	}
+	.maincolor{
+		background-color: grey;
+	}
+	.orange{
+		background-color: orange
+	}
+.style{
+	background-color: white;
+}
+.silver{
+	background-color: (rgb(223, 231, 231);
+}

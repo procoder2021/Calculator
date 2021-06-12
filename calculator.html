@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+	<div class="main">
+    <form action="" name="Calculator">
+       <input class="text style" name="text1" disabled type="text"><br>
+       <input class="num silver" name="btn12" value="AC" type="reset">
+			 <input class="num orange" type="button" name="perbtn" value="%" onclick="displaynum(perbtn.value)">
+			 <input class="num orange" name="addbtn" value="+" onclick="displaynum(addbtn.value)" type="button">
+			 <input class="num orange" name="divbtn" value="/" onclick="displaynum(divbtn.value)" type="button"><br>
+			 <input class="num maincolor" name="btn7" value="7" onclick="displaynum(btn7.value)" type="button">
+       <input class="num maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)" type="button">
+       <input class="num maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)" type="button">
+		   <input class="num orange" name="mulbtn" value="*" onclick="displaynum(mulbtn.value)" type="button"><br>
+       <input class="num maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)" type="button">
+       <input class="num maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)" type="button">
+		   <input class="num maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)" type="button">
+       <input class="num orange" name="subbtn" value="-" onclick="displaynum(subbtn.value)" type="button"><br>
+		   <input class="num maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)" type="button">
+       <input class="num maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)" type="button">
+		   <input class="num maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)" type="button">
+       <input class="num orange" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)" type="button"><br>
+			 <input class="nums maincolor" name="btn11" value="00" onclick="displaynum(btn11.value)" type="button">
+       <input class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)" type="button">
+			 <input class="num silver" name="dot" value="." onclick="displaynum(dot.value)" type="button" >
+    </form>
+    </div>
+	<script>
+		function displaynum(n1){
+			Calculator.text1.value=Calculator.text1.value+n1;
+		}
+	</script>
+</body>
+</html>
